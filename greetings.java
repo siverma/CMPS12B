@@ -12,7 +12,8 @@
               while(true) {
                   String name = in.readLine();
                   if (name == null) break;
-                  System.out.println("Hello, " + name + ".");
+                  String [] nameOfPerson = name.split(",");
+                  System.out.println("Hello, " + nameOfPerson[0] + ".");
 }
               in.close();
           }
